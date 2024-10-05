@@ -1,4 +1,4 @@
-name: Django Tests
+name: skks-ar
 
 on:
   push:
@@ -39,4 +39,4 @@ jobs:
         coverage report
     - name: Django Testing
       run: |
-        python manage.py test
+        python manage.py skks-ab
